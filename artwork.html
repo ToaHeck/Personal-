@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To'a Heck's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="resume.html" class="nav__link">My Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                My Work: <strong>Graphic Design</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro--portfolio">Some of my favorite art projects.</p>
+            <img src="img/BONSAI.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-background">
+        <div class="portfolio-item-individual-art">
+            <p>This page is dedicated to highlight some of my personal artwork I like to create 
+                in my free time. You can find more on my Instagram page linked below.
+            </p>
+
+            <div class="art-piece">
+                <h2>Trench Run Interpretation: Blender</h2>
+                <video width="100%" autoplay muted loop controls style="box-shadow: var(--bs);">
+                    <source src="img/trench.mp4"/>
+                </video>
+                <p>I recreated the iconic Trench Run scene from Star Wars Episode IV
+                    using Blender and Adobe After Effects.
+                </p>
+            </div>
+            <hr>
+            <div class="art-piece">
+                <h2>Alternate Realities Submission</h2>
+                <video width="100%" autoplay muted loop style="box-shadow: var(--bs);">
+                    <source src="img/journey.mp4"/>
+                </video>
+                <p>This scene is my submission for the "Alternate Realities" contest. This is created
+                    with Blender, Photoshop, After Effects, and Premiere. Insipired by a trip I took to
+                    Half Moon Bay and Pacifica.
+                </p>
+            </div>
+            <hr>
+            <div class="art-piece">
+                <h2>B0N54I artwork: Photoshop</h2>
+                <img class="image-item"src="img/flower.jpg" style="box-shadow: var(--bs);"/>
+                <img class="image-item"src="img/santo.jpg" style="box-shadow: var(--bs);"/>
+                <img class="image-item"src="img/sakura.jpg" style="box-shadow: var(--bs);"/>
+                <p>
+                    Here are some of my favorite Photoshop compositions I made. 
+                </p>
+            </div>
+            <hr>
+            <div class="art-piece">
+                <h2>Youtube Intro: After Effects</h2>
+                <video width="100%" autoplay muted loop controls style="box-shadow: var(--bs);">
+                    <source src="img/Warbasho Intro 1.mp4"/>
+                </video>
+                <p class="art-piece-last-item">This is a commission I've received to create a Youtube intro which I made primarily
+                    with After Effects.
+                </p>
+            </div>
+
+        </div>
+        </div>
+
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:toaheck1@gmail.com" class="footer__link">toaheck1@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/toa-heck/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ToaHeck" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/toaheck" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/b0n5ai" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To'a Heck's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="resume.html" class="nav__link">My Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                iOS App: <strong>Tip Calculator</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro--portfolio">An app to split the bill.</p>
+            <img src="img/tips.png" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-background">
+        <div class="portfolio-item-individual-horizontal">
+            <div class="portfolio-item-text-horizontal">
+                <p> The Tip Calculator app is a user-friendly iOS application, crafted in Swift, to simplify the 
+                    process of calculating tips and splitting bills. With a clean and intuitive interface, this app 
+                    ensures a hassle-free experience for users looking to manage their expenses efficiently. It 
+                    offers pre-determined tip percentages (15%, 18%, and 20%) and a convenient stepper for selecting 
+                    the number of people to split the total bill among. The key features include an easy-to-use 
+                    interface, three pre-determined tip buttons, a stepper for bill splitting, and seamless 
+                    calculation and display of the total tip, individual share, and final bill per person.
+                </p>
+                
+                <p> 
+                    Getting started with the Tip Calculator app requires Xcode 12 or higher, Swift 5, and iOS 13.0+.
+                    To install, clone the repository to your local machine, open the project in Xcode, and build and
+                    run the application on the iOS simulator or a physical device. In terms of usage, launch the 
+                    app on your iOS device, enter the total bill amount, select a tip percentage, use the stepper 
+                    for bill splitting, and press the "Calculate" button to view the results on a new screen. The 
+                    GitHub repository for this projcect can be found 
+                    <a href="https://github.com/ToaHeck/TipCalculator-iOS13" target="_blank">here</a>
+                </p>
+            </div>
+            <div class="portfolio-item-image-horizontal">
+                <img src="img/tips.gif" alt="">
+            </div>
+        </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:toaheck1@gmail.com" class="footer__link">toaheck1@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/toa-heck/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ToaHeck" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/toaheck" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/b0n5ai" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
