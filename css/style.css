@@ -140,7 +140,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle--intro--portfolio,
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: .25em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
@@ -276,6 +276,8 @@ header {
 }
 
 .section__subtitle--intro--portfolio{
+
+    text-align: center;
     display: inline-block;
     z-index: 0;
 }
@@ -499,7 +501,12 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    border: var(--clr-dark);
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
 }
+
 
 .portfolio__img {
     transition: 
@@ -508,24 +515,41 @@ header {
 }
 
 .portfolio__item {
+    text-decoration: none;
     display: inline-block; 
     position: relative; /* Establish positioning context */
+}
+
+.portfolio__item:hover{
+    border-color: var(--clr-light);
+    box-shadow: 0px 0px 5px 1px var(--clr-light);
+    z-index: 3;
 }
 
 .portfolio__item img {
     width: 100%; /* Make the image fill the width of its container */
     height: auto; /* Maintain the image's aspect ratio */
 }
+
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
 }
 
+
+/*
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
 }
+*/
+
+.portfolio_item_title{
+    color: var(--clr-dark);
+    padding:10px;
+}
+
 
 #bonsai {
     background-color: white;
